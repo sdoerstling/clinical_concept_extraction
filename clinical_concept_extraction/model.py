@@ -1,7 +1,7 @@
 import os
 import tensorflow as tf
 
-flags = tf.app.flags
+flags = tf.compat.v1.flags
 FLAGS = flags.FLAGS
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
